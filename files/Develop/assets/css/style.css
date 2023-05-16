@@ -1,3 +1,22 @@
 /*  Universal CSS */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(12, 177, 237);
+    color: whitesmoke;
+}
 
+h1 {
+    font-size: xx-large;
+    align-content: center;
+}
+
+
+
+/* INSERT ELEMENTS  */
+
+
+
+/* INSERT CLASSES */
+
+/* .cool_paragraph { */
 
