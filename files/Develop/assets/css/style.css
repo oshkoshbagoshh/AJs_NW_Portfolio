@@ -1,7 +1,7 @@
 /*  Universal CSS */
 * {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(74, 83, 87);
+    background-color: rgb(46, 49, 51);
     color: whitesmoke;
     box-sizing: border-box;
     padding: 0;
@@ -12,6 +12,10 @@ h1 {
     font-size: xx-large;
     align-content: center;
 }
+
+ul {
+    list-style-type: square;
+  }
 
 .aj-javadi {
 color:rgb(74, 83, 87);
@@ -64,6 +68,17 @@ min-width: 10px;
   width: 1500px;
 
 }
+.placeholder-img {
+    width: 100px;
+    height: 100px;
+    /* background-color: lightblue; */
+    /* TODO: Add a margin property */
+    margin: 20px;
+  
+    /* TODO: Add a padding property */
+    padding: 20px;
+  
+  }
 
 .subtitle-fixed {
         top: 20x;
@@ -92,15 +107,7 @@ min-width: 10px;
     
 }
 
-.work-images {
-    height: 50%;
-    width: 50%;
-    max-width: 200px;
-    max-height: 200px;
-    /* width: 100px */
-    /* height: 100px; */
 
-}
 
 
 
