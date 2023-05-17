@@ -66,12 +66,11 @@ min-width: 10px;
 }
 
 .subtitle-fixed {
-        position: fixed;
-        top: 260px;
-        right: 20px;
+        top: 20x;
+        right: 40px;
         width: 200px;
         height: 100px;
-        background-color: #121111;
+        background-color: inherit;
         word-wrap: normal;
 }
 
@@ -93,6 +92,60 @@ min-width: 10px;
     
 }
 
+.work-images {
+    height: 50%;
+    width: 50%;
+    max-width: 200px;
+    max-height: 200px;
+    /* width: 100px */
+    /* height: 100px; */
+
+}
+
 
 
 /*  MEDIA QUERIES  */
+
+/* Styles for iPhone SE */
+@media (max-width: 667px) {
+    body {
+      background-color: lightblue;
+    }
+    
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+    
+    .header {
+      font-size: 24px;
+    }
+  }
+
+/* bottom contact */
+
+.bottom-contact {
+
+}
+
+
+
+
+  /* MEDIA QUERIES  */
+  
+  /* Styles for screens larger than 1200px */
+  @media (min-width: 1200px) {
+    body {
+      background-color: lightgray;
+    }
+    
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+    
+    .header {
+      font-size: 36px;
+    }
+  }
+
