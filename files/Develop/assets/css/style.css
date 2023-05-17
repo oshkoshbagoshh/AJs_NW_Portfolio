@@ -8,6 +8,7 @@
     margin: 0;
 }
 
+/* ELEMENTS  */
 h1 {
     font-size: xx-large;
     align-content: center;
@@ -16,6 +17,11 @@ h1 {
 ul {
     list-style-type: square;
   }
+
+
+
+  /* CLASSES  */
+
 
 .aj-javadi {
 color:rgb(74, 83, 87);
@@ -35,9 +41,6 @@ min-width: 10px;
     justify-content: right;
     text-decoration: underline ;
     
-    
-
-
     /* color: rgb(69, 236, 194) */
     
 }
@@ -128,15 +131,6 @@ min-width: 10px;
       font-size: 24px;
     }
   }
-
-/* bottom contact */
-
-.bottom-contact {
-
-}
-
-
-
 
   /* MEDIA QUERIES  */
   
