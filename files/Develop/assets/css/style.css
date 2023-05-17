@@ -1,8 +1,11 @@
 /*  Universal CSS */
 * {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(12, 177, 237);
+    background-color: rgb(74, 83, 87);
     color: whitesmoke;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 h1 {
@@ -10,13 +13,86 @@ h1 {
     align-content: center;
 }
 
+.aj-javadi {
+color:rgb(74, 83, 87);
+background-color:rgb(69, 236, 194);
+padding: 20px;
+/* border: 3px solid black; */
+flex-wrap: wrap;
+align-content: center;
+margin: 2px;
+padding-left: 10px;
+min-width: 10px;
+}
+.top-contact {
+    display: flex;
+    /* flex-direction: */
+    align-items: end;
+    justify-content: right;
+    text-decoration: underline ;
+    
+    
 
 
-/* INSERT ELEMENTS  */
+    /* color: rgb(69, 236, 194) */
+    
+}
+
+
+/* .flexbox-container {
+
+} */
+
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: rgb(69, 236, 194);
+}
+
+.flexbox-item-one {
+    min-height: 100px;
+    min-width: 200px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.image-one {
+  height: 200px;
+  width: 1500px;
+
+}
+
+.subtitle-fixed {
+        position: fixed;
+        top: 260px;
+        right: 20px;
+        width: 200px;
+        height: 100px;
+        background-color: #121111;
+        word-wrap: normal;
+}
+
+.italic {
+    font-display: italic;
+    font-size: small;
+}
+
+.background-two {
+    background-color: azure;
+}
+
+.about-me-header {
+    color: rgb(26, 198, 141);
+    font-size: 30px;
+}
+.about-me {
+    color: #121111;
+    
+}
 
 
 
-/* INSERT CLASSES */
-
-/* .cool_paragraph { */
-
+/*  MEDIA QUERIES  */
