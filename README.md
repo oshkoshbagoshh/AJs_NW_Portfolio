@@ -1,5 +1,13 @@
 # AJs_NW_Portfolio
+
 This will be a portfolio, showcasing the projects I work on while at Northwestern's Bootcamp.
+
+The site is currently hosted via Github pages, and can be accessed here:
+
+[!](https://oshkoshbagoshh.github.io/AJs_NW_Portfolio/)
+
+
+
 
 
 ## Description
@@ -17,14 +25,24 @@ I utilized basic HTML, CSS, and markdown for the documentation.
 
 I also utilized wireframing to copy the structure of an example page that was supplied to us. 
 
-<!-- ## Table of Contents (Optional)
+## Table of Contents (Optional) 
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license) -->
+
+
+[!](https://oshkoshbagoshh.github.io/AJs_NW_Portfolio/ )
+
+
+
+
+- [AJs\_NW\_Portfolio](#ajs_nw_portfolio)
+  - [Description](#description)
+  - [Table of Contents (Optional)](#table-of-contents-optional)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [Badges](#badges)
+  - [Features](#features)
 
 ## Installation
 
@@ -43,7 +61,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ![alt text](assets/images/screenshot.png)
     ``` -->
 
-<!-- ## Credits
+ ## Credits
 
 List your collaborators, if any, with links to their GitHub profiles.
 
@@ -51,7 +69,7 @@ If you used any third-party assets that require attribution, list the creators w
 
 If you followed tutorials, include links to those here as well.
 
-## License
+License
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
@@ -69,11 +87,12 @@ Badges aren't necessary, per se, but they demonstrate street cred. Badges let ot
 
 If your project has a lot of features, list them here.
 
-## How to Contribute
+<!-- ## How to Contribute
 
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 
-## Tests
+If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer. -->
+
+<!-- ## Tests
 
 Go the extra mile and write tests for your application. Then provide examples on how to run them here.
-``` -->
+``` --> -->
