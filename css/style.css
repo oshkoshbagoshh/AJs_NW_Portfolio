@@ -1,0 +1,80 @@
+/*  Universal CSS */
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(46, 49, 51);
+    color: whitesmoke;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* ELEMENTS  */
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(46, 49, 51);
+    height: 50px;
+    margin: 20px 0;
+    padding: 70ox;
+    align-content: center;
+    list-style-type: none;
+}
+
+  /* CLASSES  */
+.box {
+    width: 30%;
+    height: 80px;
+    background-color: rgb(120, 182, 223);
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 10px;
+    justify-content: center
+    ;
+}
+
+
+/*  MEDIA QUERIES  */
+
+/* Styles for iPhone SE */
+@media (max-width: 667px) {
+    body {
+      background-color: lightblue;
+    }
+    
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+    
+    .header {
+      font-size: 24px;
+    }
+  }
+
+  /* MEDIA QUERIES  */
+  
+  /* Styles for screens larger than 1200px */
+  @media (min-width: 1200px) {
+    body {
+      background-color: lightgray;
+    }
+    
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+    
+    .header {
+      font-size: 36px;
+    }
+  }
+
