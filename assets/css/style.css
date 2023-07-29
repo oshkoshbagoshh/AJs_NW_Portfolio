@@ -1,8 +1,9 @@
 body {
-  font-family: Arial;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   min-height: 100vh;
   min-width: 200px;
+  background: #f3f9ff;
 }
 
 header {
@@ -36,7 +37,7 @@ nav a {
 .pop_text {
   height: 30px;
   width: 200px;
-  background-color: rgb(222, 167, 222);
+  background-color: rgb(130, 221, 199);
   position: absolute;
   padding: 1px 1px 1px 1px;
   bottom: -15px;
@@ -46,6 +47,9 @@ nav a {
   align-items: center;
   display: flex;
   color: black;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: auto;
 }
 
 #about_me {
@@ -56,6 +60,20 @@ nav a {
   display: flex;
   flex-wrap: wrap;
   margin-left: 20px;
+}
+#profile-pic {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  /* float: center; */
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+
 }
 
 #about_me h1 {
@@ -69,6 +87,10 @@ nav a {
 #about_me p {
   width: 75%;
   padding-left: 52px;
+  padding-top: 20px;
+  font-size: 14px;
+  flex: auto;
+  
 }
 
 #work {
@@ -103,7 +125,10 @@ nav a {
 
 .big_image {
   height: 400px;
-  width: 700px;
+  width: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
 } 
 
 #work img {
@@ -146,5 +171,5 @@ footer a {
 }
 
 a:hover {
-  color: green;
+  color: rgb(32, 0, 136);
 }  

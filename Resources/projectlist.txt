@@ -1,0 +1,46 @@
+
+PROJECT  / REPO LIST:
+
+TODO: remember to grab the deploy link for the readme
+
+
+Flavorscapes: 
+https://github.com/oshkoshbagoshh/Project-1-Flavorscapes-Colin-Javadi-Kuhner_AJsversion
+
+
+
+Pastebin: LPX in scale
+iframe:
+<iframe src="https://pastebin.com/embed_iframe/uSPJ27CQ" style="border:none;width:100%"></iframe>
+
+Raw: https://pastebin.com/uSPJ27CQ
+
+Nosql Social network API: 
+https://github.com/oshkoshbagoshh/nosql-social-network-api
+
+recipe voyage:
+https://github.com/oshkoshbagoshh/recipe-voyage
+
+Deployed:
+https://recipevoyage-6c0c7512867d.herokuapp.com
+
+
+ecommerce backend site:
+https://github.com/oshkoshbagoshh/ecommerce-backend-site
+
+Node JS README Gen:
+https://github.com/oshkoshbagoshh/README_Gen
+
+
+Webdev shellscripts:
+https://github.com/oshkoshbagoshh/webdev_shell_scripts
+
+repo link:
+https://github.com/oshkoshbagoshh/webdev_shell_scripts.git
+
+JATE:
+heroku link:
+https://aj-jate-f41cfdd72912.herokuapp.com
+
+
+
