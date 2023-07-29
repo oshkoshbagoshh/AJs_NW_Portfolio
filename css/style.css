@@ -1,92 +1,150 @@
-/*  Universal CSS */
-
-
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(46, 49, 51);
-    color: whitesmoke;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    list-style:none;
-    text-decoration: none;
-    box-sizing: border-box;
+body {
+  font-family: Arial;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 200px;
 }
 
-/* ELEMENTS  */
-h1 {
-    font-size: 48px;
-    text-align: center;
-    margin: 20px 0;
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #13293d;
+  color: #fff;
+  position: relative;
+  min-height: 60px;
 }
 
-/* The sidebar menu */
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
+header h1 {
+  padding: 25px 10px 25px 20px;
+  font-size: 40px;
 }
 
-/* The navigation menu links */
-.sidenav a {
-  padding: 6px 8px 6px 16px;
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: right;
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
   text-decoration: none;
+  text-align: right;
+}
+
+.pop_text {
+  height: 30px;
+  width: 200px;
+  background-color: rgb(222, 167, 222);
+  position: absolute;
+  padding: 1px 1px 1px 1px;
+  bottom: -15px;
+  right: 5vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: black;
+}
+
+#about_me {
+  padding-top: 40px;
+  padding-left: 43px;
+  padding-bottom: 20px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+#about_me h1 {
+  border-right: 3px solid;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-left: 6px;
   font-size: 25px;
-  color: #818181;
-  display: block;
 }
 
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
+#about_me p {
+  width: 75%;
+  padding-left: 52px;
 }
 
-/* Style page content */
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
+#work {
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  margin-left: 4px;
+}
+
+.work {
+  display: flex;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 
-/*  MEDIA QUERIES  */
+#work h1 {
+  border-right: 3px solid;
+  padding-left: 119px;
+  padding-top: 249px;
+  padding-right: 8px;
+  font-size: 25px;
+}
+    
+/* .image_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
 
-/* Styles for iPhone SE */
-@media (max-width: 667px) {
-    body {
-      background-color: lightblue;
-    }
-    
-    .container {
-      width: 90%;
-      margin: 0 auto;
-    }
-    
-    .header {
-      font-size: 24px;
-    }
-  }
+.big_image {
+  height: 400px;
+  width: 700px;
+} 
 
-  /* MEDIA QUERIES  */
-  
-  /* Styles for screens larger than 1200px */
-  @media (min-width: 1200px) {
-    body {
-      background-color: lightgray;
-    }
-    
-    .container {
-      width: 80%;
-      margin: 0 auto;
-    }
-    
-    .header {
-      font-size: 36px;
-    }
-  }
+#work img {
+  padding-left: 50px;
+}
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: black; 
+}
+
+#contact_me {
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 29px;
+  padding-top: 40px;
+}
+
+#contact_me h1 {
+  border-right: 3px solid;
+  padding-right: 10px;
+  padding-top: 13px;
+  font-size: 25px;
+}
+
+#contact_me nav {
+  align-items: center;
+  justify-content: right;
+  padding-left: 51px;
+}
+
+footer a {
+  color: black;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: right;
+}
+
+a:hover {
+  color: green;
+}  
