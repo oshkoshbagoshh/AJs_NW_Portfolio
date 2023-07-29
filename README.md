@@ -1,11 +1,41 @@
-# AJs_NW_Portfolio
+# AJs\_NW\_Portfolio
+
+## Description
 
 This will be a portfolio, showcasing the projects I work on while at Northwestern's Bootcamp.
 
 The site is currently hosted via Github pages, and can be accessed here:
 
-[!](https://oshkoshbagoshh.github.io/AJs_NW_Portfolio/)
+---
 
+[] TODO: Add link to Github pages
+
+
+---
+
+## Table of Contents (Optional)
+
+
+## Acceptance Criteria / User Story
+
+> GIVEN I need to sample a potential employee's previous workAS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+
+---
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
 
 
 
@@ -38,6 +68,9 @@ I also utilized wireframing to copy the structure of an example page that was su
 - [AJs\_NW\_Portfolio](#ajs_nw_portfolio)
   - [Description](#description)
   - [Table of Contents (Optional)](#table-of-contents-optional)
+  - [Acceptance Criteria / User Story](#acceptance-criteria--user-story)
+  - [Description](#description-1)
+  - [Table of Contents (Optional)](#table-of-contents-optional-1)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Credits](#credits)

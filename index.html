@@ -1,83 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My My Portfolio</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <header>
+      <h1>AJ Javadi</h1>
 
-        <h1>AJ Javadi</h1>
+      <!-- INSERT Nav Bar Here  -->
+      <nav>
+        <a href="#about_me">About Me</a>
+        <a href="#work">Work</a>
+        <a href="#contact_me">Contact Me</a>
+        <a href="#Resume">Resume</a>
+      </nav>
 
-        <nav>
-            <a href="#about_me">About Me</a>
-            <a href="#work">Work</a>
-            <a href="#contact_me">Contact Me</a>
-            <a href="#Resume">Resume</a>
-        </nav>
-
-        <div class="pop_text">I Am A Problem Solver</div>
-
+      <div class="pop_text">I Am A Problem Solver</div>
     </header>
 
     <main>
+      <section id="about_me">
+        <h1>About Me</h1>
 
-        <section id="about_me">
+        <p>
+          I am an Electrical Engineer that has spent the last 5 years working in
+          the pinball manufacturing industry. the last part of my pinball carrer
+          was spent as a senior manager in charge of Production and Customer
+          Service. prior to this, I owned 4 Play amusements, we operated over
+          200 amusement machines in 7 arcades, and numerious bars and
+          restaurants.
+        </p>
+      </section>
 
-            <h1>About Me</h1>
+      <section id="work">
+        <h1>Work</h1>
+        <div class="image_container">
+          <a
+            href="https://mattchiaro.github.io/whats-that-noise/"
+            target="_blank"
+            ><img
+              class="big_image"
+              src="./assets/images/whats_that_noise.png"
+              alt="Group Project #1"
+          /></a>
 
-            <p>I am an Electrical Engineer that has spent the last 5 years working in the pinball manufacturing
-                industry. the last part of my pinball carrer was spent as a senior manager in charge of Production and
-                Customer Service. prior to this, I owned 4 Play amusements, we operated over 200 amusement machines in 7
-                arcades, and numerious bars and restaurants.</p>
+          <a
+            href="https://recipevoyage-6c0c7512867d.herokuapp.com/"
+            target="_blank"
+            ><img
+              class="big_image"
+              src="./assets/images/recipe_voyage.png"
+              alt="Group Project #2"
+          /></a>
 
-
-        </section>
-
-        <section id="work">
-
-            <h1>Work</h1>
-            <div class="image_container">
-
-                <a href="https://mattchiaro.github.io/whats-that-noise/" target="_blank"><img class="big_image"
-                        src="./assets/images/whats_that_noise.png" alt="Group Project #1" /></a>
-
-                <a href="https://recipevoyage-6c0c7512867d.herokuapp.com/" target="_blank"><img class="big_image"
-                        src="./assets/images/recipe_voyage.png" alt="Group Project #2" /></a>
-
-                <div class="work">
-
-                </div>
-            </div>
-        </section>
-
-
-
+          <div class="work"></div>
+        </div>
+      </section>
     </main>
 
     <footer>
-
-        <section id="contact_me">
-
-            <h1>Contact Me</h1>
-            <Nav>
-                <p>630/327-7870</p>
-                <a href="mailto:barryengler@gmail.com">barryengler@gmail.com</a>
-                <a href="https://dot.cards/barryengler" target="_blank">Dot Business Card</a>
-                <a href="https://www.linkedin.com/in/barry-engler-745624182/" target="_blank">LinkedIn</a>
-            </Nav>
-
-        </section>
-
+      <section id="contact_me">
+        <h1>Contact Me</h1>
+        <nav>
+          <p>630/327-7870</p>
+          <a href="mailto:barryengler@gmail.com">barryengler@gmail.com</a>
+          <a href="https://dot.cards/barryengler" target="_blank"
+            >Dot Business Card</a
+          >
+          <a
+            href="https://www.linkedin.com/in/barry-engler-745624182/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </nav>
+      </section>
     </footer>
-
-</body>
-
+  </body>
 </html>
